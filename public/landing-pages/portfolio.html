@@ -285,13 +285,13 @@ h1,h2,h3{ font-weight:400; margin:0; letter-spacing:-.005em; }
 .card:hover .card-fr{ outline-color:rgba(223,231,224,.30); }
 .card:nth-child(1) .card-fr{
   background:
-    linear-gradient(180deg,rgba(3,6,9,.04) 36%,rgba(3,6,9,.72) 100%),
-    url('secret-pathways-assets/generated/kage-approach.webp') center / cover no-repeat;
+    linear-gradient(180deg,rgba(3,6,9,.10) 0%,rgba(3,6,9,.55) 55%,rgba(3,6,9,.82) 100%),
+    url('secret-pathways-assets/generated/resuscan-preview.jpg') center / cover no-repeat;
 }
 .card:nth-child(2) .card-fr{
   background:
-    linear-gradient(180deg,rgba(3,6,9,.06) 36%,rgba(3,6,9,.74) 100%),
-    url('secret-pathways-assets/generated/kage-lantern-court.webp') center / cover no-repeat;
+    linear-gradient(180deg,rgba(3,6,9,.10) 0%,rgba(3,6,9,.55) 55%,rgba(3,6,9,.82) 100%),
+    url('secret-pathways-assets/generated/lasthope-preview.jpg') center / cover no-repeat;
 }
 .card:nth-child(3) .card-fr{
   background:
@@ -391,6 +391,14 @@ h1,h2,h3{ font-weight:400; margin:0; letter-spacing:-.005em; }
   font-size:11px; line-height:1.45; color:var(--bone-dim); }
 .card-note .dot{ width:5px; height:5px; border-radius:50%; flex:0 0 auto;
   background:var(--vermilion); box-shadow:0 0 8px var(--vermilion); }
+.card-tags{ display:flex; flex-wrap:wrap; gap:5px 6px; margin-top:10px; }
+.tag{
+  font-size:9px; font-weight:500; letter-spacing:.18em; text-transform:uppercase;
+  padding:3px 8px; border:1px solid rgba(223,231,224,.13); border-radius:2px;
+  color:rgba(223,231,224,.48); background:rgba(223,231,224,.04);
+  transition:border-color .3s, color .3s;
+}
+.card:hover .tag{ border-color:rgba(223,231,224,.22); color:rgba(223,231,224,.70); }
 .card--soon{ cursor:default; }
 .card--soon .card-ar{ display:none; }
 
@@ -1118,6 +1126,13 @@ body[data-layout-footer="b"] .foot-base span:last-child{ text-align:right; }
       </div>
       <div class="card-meta"><span>React · FastAPI · Supabase · Gemini</span><span>Live App ↗</span></div>
       <div class="card-note"><span class="dot"></span><span>Under development — AI resume scanner, JD matcher &amp; builder</span></div>
+      <div class="card-tags">
+        <span class="tag">React</span>
+        <span class="tag">FastAPI</span>
+        <span class="tag">Supabase</span>
+        <span class="tag">Gemini AI</span>
+        <span class="tag">Python</span>
+      </div>
     </article>
     <article class="card" data-rv="up" data-view="1" data-href="https://github.com/aswinkrishnapaila-del/LastHope-2" tabindex="0" role="link" aria-label="LastHope-2 — open GitHub repository" data-cursor>
       <div class="card-fr" data-frame>
@@ -1127,6 +1142,13 @@ body[data-layout-footer="b"] .foot-base span:last-child{ text-align:right; }
       </div>
       <div class="card-meta"><span>Flutter · Dart · Node.js · Socket.io</span><span>GitHub ↗</span></div>
       <div class="card-note"><span>Emergency SOS &amp; life-safety mobile app — live tracking &amp; fall detection</span></div>
+      <div class="card-tags">
+        <span class="tag">Flutter</span>
+        <span class="tag">Dart</span>
+        <span class="tag">Node.js</span>
+        <span class="tag">Socket.io</span>
+        <span class="tag">Firebase</span>
+      </div>
     </article>
     <article class="card card--soon" data-rv="up" data-view="2">
       <div class="card-fr" data-frame>

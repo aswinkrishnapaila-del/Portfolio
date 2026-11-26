@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 
 const SANDBOX_PERMISSIONS =
-  'allow-downloads allow-forms allow-modals allow-popups allow-same-origin allow-scripts';
+  'allow-downloads allow-forms allow-modals allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts';
 
 const FONT_STACKS = {
   onest: {
